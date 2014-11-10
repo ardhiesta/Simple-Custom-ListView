@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <!--<ImageView-->
+        <!--android:id="@+id/icon"-->
+        <!--android:layout_width="22dp"-->
+        <!--android:layout_height="22dp"-->
+        <!--android:layout_marginLeft="4dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:src="@drawable/ic_launcher"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_toLeftOf="@+id/label_one"-->
+        <!-->-->
+    <!--</ImageView>-->
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/label_one"
+        />
+
+    <TextView
+        android:id="@+id/label_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/label_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textSize="12sp"
+        android:layout_below="@id/label_one"
+        >
+    </TextView>
+
+</RelativeLayout>
